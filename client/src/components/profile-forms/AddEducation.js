@@ -39,7 +39,7 @@ const AddEducation = ({ addEducation, history }) => {
     <Fragment>
       <h1 className='large text-primary'>Add Your Education</h1>
       <p className='lead'>
-        <i className='fas fa-code-branch'></i> Add any school or bootcamp that
+        <i className='fa fa-code-branch'></i> Add any school or bootcamp that
         you have attended
       </p>
       <small>* = required field</small>
@@ -130,4 +130,4 @@ AddEducation.propTypes = {
   addEducation: PropTypes.func.isRequired,
 };
 
-export default connect(null, { addEducation })(AddEducation);
+export default connect(null, { addEducation })(withRouter(AddEducation));

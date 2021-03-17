@@ -8,14 +8,20 @@ export const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const authLinks = (
     <ul>
       <li>
+        <Link to='/profiles'>Członkowie</Link>
+      </li>
+      <li>
+        <Link to='/posts'>Posts</Link>
+      </li>
+      <li>
         <Link to='/dashboard'>
-          <i className='fas fa-user'></i>{" "}
+          <i className='fa fa-user'></i>{" "}
           <span className='hide-sm'> Dashboard</span>
         </Link>
       </li>
       <li>
         <a onClick={logout} href='#!'>
-          <i className='fas fa-sign-out-alt'></i>{" "}
+          <i className='fa fa-sign-out'></i>{" "}
           <span className='hide-sm'>Logout</span>
         </a>
       </li>
@@ -24,7 +30,7 @@ export const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const guestLinks = (
     <ul>
       <li>
-        <Link to='#!'>Członkowie</Link>
+        <Link to='/profiles'>Członkowie</Link>
       </li>
       <li>
         <Link to='/register'>Register</Link>
@@ -39,7 +45,7 @@ export const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <nav className='navbar bg-dark'>
       <h1>
         <Link to='/'>
-          <i className='fas fa-code'></i> MeskaConnector
+          <i className='fa fa-code'></i> MeskaConnector
         </Link>
       </h1>
       {!loading && (
