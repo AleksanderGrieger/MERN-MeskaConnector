@@ -5,11 +5,10 @@ MeskaConnector is my first MERN project and first contact with React. It's a web
 ## Setup
 
 To run application (server and client sides)
-
+`
 `npm install`
-
 `npm run dev`
-
+`
 ## Technologies
 
 Project is created with:
