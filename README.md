@@ -1,6 +1,6 @@
 # MERN-MeskaConnector
 
-MeskaConnector is my first MERN project and first contact with React. It's a web app that helps to communicate between small group of friends. It was realy satysfying to make something lakie this in new technology and I'm looking forward for some new React/MERN projects.
+MeskaConnector is my first MERN project and first contact with React. It's a web app that helps to communicate people that interests in programming. It was really satisfying to make something lake this in new technology, and I'm looking forward to some new React/MERN projects.
 
 ## Setup
 
